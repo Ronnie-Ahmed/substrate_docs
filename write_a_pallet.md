@@ -196,8 +196,8 @@ pub mod pallet{
 
 1. **Create `mock.rs`:**
    - Set up the mock runtime:
-     ```rust
-        use crate as pallet_2;
+    ```rust
+     use crate as pallet_2;
     use frame_support::{parameter_types, traits::{ConstU16, ConstU64}, PalletId};
     use sp_core::H256;
     use sp_runtime::{
@@ -253,8 +253,7 @@ pub mod pallet{
     pub fn new_test_ext() -> sp_io::TestExternalities {
         frame_system::GenesisConfig::<Test>::default().build_storage().unwrap().into()
     }
-     
-     ```
+    ```
 
 2. **Create `tests.rs`:**
    - Write tests for your pallet:
