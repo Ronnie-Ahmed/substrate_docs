@@ -188,7 +188,7 @@ pub mod pallet{
    - Define the `PalletId` constant:
      ```rust
      parameter_types! {
-         pub const MyPalletId: PalletId = PalletId(*b"mypallet");
+         pub const MyPalletId: PalletId = PalletId(*b"raisulro");
      }
      ```
 
